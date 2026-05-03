@@ -10,7 +10,7 @@ import styles from "../styles/LoginStyles";
 import CustomButton from "../components/CustomButton";
 import { FontAwesome } from "@expo/vector-icons";
 
-export default function LoginScreen() {
+export default function LoginScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Welcome Back</Text>
@@ -40,7 +40,7 @@ export default function LoginScreen() {
         <Text style={styles.forgot}>Forgot password</Text>
       </TouchableOpacity>
 
-      <CustomButton title="Login" onPress={() => alert("Login clicado")} />
+      <CustomButton title="Login" onPress={() => navigation.navigate('Fitness')} />
 
       {/* DIVISOR */}
       <View style={styles.dividerContainer}>
