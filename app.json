@@ -7,7 +7,6 @@
     "icon": "./assets/google.png",
     "scheme": "mylife",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
 
     "ios": {
       "supportsTablet": true
@@ -16,17 +15,16 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/google.png",
-        "backgroundImage": "./assets/google.png",
-        "monochromeImage": "./assets/google.png"
+        "foregroundImage": "./assets/google.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.mylife"
     },
 
     "web": {
       "output": "single",
-      "favicon": "./assets/google.png"
+      "favicon": "./assets/icon.png"
     },
 
     "plugins": [
