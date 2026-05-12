@@ -56,6 +56,13 @@ const FitnessStyles = StyleSheet.create({
     marginBottom: 10,
   },
 
+  buttonRow: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 10,
+  },
+
   title: {
     fontSize: 16,
     fontWeight: '600',
